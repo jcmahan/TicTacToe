@@ -1,0 +1,56 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+  html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(174, 218, 245, .20); 
+}
+h1 {
+    text-align: center; 
+    font-weight: bold;
+}
+table {
+    text-align: center; 
+    font-size: 100px;
+    border: 1px dotted slategrey; 
+    height: 500px;
+    width: 500px; 
+    margin: 0 auto; 
+}
+td {
+    border: 2px solid black; 
+    width: 125px;
+    height: 125px;
+}
+.howTo {
+    height: 1000px; 
+    width: 250px;
+    float: left;
+}
+#reset {
+    padding: 14px 40px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center; 
+}
+.button {
+    background-color: dodgerblue;
+    font-size: large;
+    height: 25px;
+    width: 125px; 
+}
+.button:hover {
+    color: black; 
+}
+td:hover {
+    background-color: slategray;
+}
+.gameboard {
+    margin: 2px solid black;
+}
+.top {
+    border-top: none; 
+}
+.bottom {
+    border-bottom: none;
+    }
